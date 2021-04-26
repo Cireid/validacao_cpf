@@ -59,7 +59,6 @@
             $novo_cpf = $novo_cpf . $soma_digitos;
             return $novo_cpf;
         }
-        return $novo_cpf;
     }
 
     if(isset($_POST['cpf']))
